@@ -44,7 +44,7 @@ const TableDisplay = ({ attendance }) => {
     formData.append('siglaCurso', data[1]);
 
     try {
-      const response = await axios.post('http://20.195.171.94:5000/api/pdf/upload', formData, {
+      const response = await axios.post('http://127.0.0.1:5000/api/pdf/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

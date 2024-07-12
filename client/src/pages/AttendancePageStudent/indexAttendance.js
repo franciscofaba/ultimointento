@@ -19,7 +19,7 @@ function AttendanceStudent() {
 
         if (userId) {
             console.log('Este es id: ', userId);
-            const url = `http://20.195.171.94:5000/api/user/${userId}`;
+            const url = `http://127.0.0.1:5000/api/user/${userId}`;
             console.log("Fetching URL:", url);  // Verificar la URL completa
             fetch(url)
                 .then(response => response.json())
@@ -38,7 +38,7 @@ function AttendanceStudent() {
         if (idUser) {
             const fetchAttendance = async () => {
                 try {
-                    const response = await axios.get(`http://20.195.171.94:5000/api/attendance/student/all/${idUser}`);
+                    const response = await axios.get(`http://127.0.0.1:5000/api/attendance/student/all/${idUser}`);
                     console.log(response);
                     setAttendance(response.data);
                 } catch (error) {

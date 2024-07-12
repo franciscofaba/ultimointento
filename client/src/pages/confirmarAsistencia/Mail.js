@@ -18,7 +18,7 @@ function Mail() {
             setError("");
 
             // Intenta obtener la respuesta del servidor
-            const response = await axios.get(`http://20.195.171.94:5000/api/login/${email}`);
+            const response = await axios.get(`http://127.0.0.1:5000/api/login/${email}`);
             
             // Aquí manejarías la respuesta positiva, como guardar el token, etc.
             console.log('Login successful:', response.data);
