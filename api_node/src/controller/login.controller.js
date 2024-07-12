@@ -68,9 +68,8 @@ export const postLoginByEmail = async (req, res) => {
             const token = generateAccessTokien(userPayload);
             console.log('Generated token:', token);
             
-            res.cookie('userId', user.idUser_fk);
-            res.cookie('accessToken', token); // Corrected syntax
-            
+            res.cookie('userId', user.idUser_fk, { httpOnly: true, sameSite: 'Lax' });
+            res.cookie('accessToken', token, { httpOnly: true, sameSite: 'Lax' });
             return res.json({ user, token });
         } else {
             if (user.password === password) {
