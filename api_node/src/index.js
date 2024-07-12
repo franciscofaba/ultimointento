@@ -31,19 +31,29 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:4200'];
-
-app.use((req, res, next) => {
-    const origin = req.headers.origin;
-    if (allowedOrigins.includes(origin)) {
-        res.setHeader('Access-Control-Allow-Origin', origin); 
-    }
-
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-    res.setHeader('Access-Control-Allow-Credentials', 'true');
-    next();
-});
+const allowedOrigins = [
+    'http://localhost:3000',
+    'http://localhost:4200',
+    'http://20.195.171.94:3000',
+    'http://20.195.171.94:4200',
+    'http://127.0.0.1:3000',
+    'http://127.0.0.1:4200'
+  ];
+  
+  const corsOptions = {
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+    methods: 'GET,POST,OPTIONS,PUT,PATCH,DELETE',
+    allowedHeaders: 'Content-Type,Authorization',
+    credentials: true
+  };
+  
+  app.use(cors(corsOptions));
 
 app.use(indexRoutes)
 app.use('/api', UserRoutes)

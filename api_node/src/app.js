@@ -4,7 +4,7 @@ import cron from 'node-cron';
 import { sendRememberEmail, sendStudentEmails, sendProfessorEmails } from '../src/controller/EnviarEmail.controller.js';
 import logger from './logger.js';  // Importa el logger
 
-app.listen(PORT, HOST, () => {
+app.listen(PORT, '0.0.0.0', () => {
     logger.info(`Servidor escuchando en http://${HOST}:${PORT}`);  // Usa logger.info
     
 
