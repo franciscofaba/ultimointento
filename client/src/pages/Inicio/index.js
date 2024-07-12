@@ -20,7 +20,7 @@ function IndexPortal() {
         setIduser(idUser_fk);
         const fetchData = async () => {
             try {
-                const response = await axios.get(`http://127.0.0.1:5000/api/User/${idUser_fk}`);
+                const response = await axios.get(`http://nodeapp:5000/api/User/${idUser_fk}`);
                 setUserData(response.data);
             } catch (error) {
                 console.error("Error al llamar a la API:", error);
