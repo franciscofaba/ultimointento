@@ -1,0 +1,32 @@
+/* estilos.css */
+.nav-dropdown-custom {
+  position: absolute;
+  z-index: 1000;
+  background-color: #191c24;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Borde redondeado */
+  top: 5px; /* Margen desde la parte superior */
+}
+
+.nav-dropdown-custom .nav-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Borde blanco más fino alrededor de cada opción */
+  border-radius: 8px; /* Borde redondeado */
+  opacity: 1; /* Inicialmente opaco */
+  margin-bottom: 5px; /* Espacio entre los elementos */
+}
+
+.nav-dropdown-custom .nav-item:last-child {
+  margin-bottom: 0; /* Sin margen inferior en el último elemento */
+}
+
+.nav-dropdown-custom .nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  opacity: 0.7; /* Efecto de opacidad al pasar el cursor */
+}

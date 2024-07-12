@@ -1,0 +1,49 @@
+{
+    "inicio":{
+        "t1":"CRM Administrativo",
+        "t2":"¡Bienvenido! al Dashboard CRM Administrativo la herramienta definitiva para la gestión bases de datos de la Universidad.",
+        "t3":"Idioma",
+        "t4":"Inicio"
+    },
+    "tables":{
+        "t1":"Tablas",
+        "t2":"Visualiza las diferentes tablas de la base de datos",
+        "t3":"Usuarios",
+        "t4":"Login",
+        "t5":"Cursos",
+        "t6":"Tabla de login en la base de datos",
+        "t7":"Tabla de usuarios en la base de datos",
+        "t8":"Tabla de cursos en la base de datos"
+    },
+    "users": {
+        "t1": "Modificar usuario",
+        "t2": "Seleccione un usuario",
+        "t3": "Nombre de usuario",
+        "t4": "Ingrese el nombre de usuario",
+        "t5": "Correo Electrónico",
+        "t6": "Ingrese el correo electrónico",
+        "t7": "Rol",
+        "t8": "Ingrese el rol",
+        "t9": "Carrera",
+        "t10": "Ingrese la carrera",
+        "t11": "Enviar"
+    },
+
+    "justificaciones":{
+        "t1":"Haz click para visualizar y descargar los PDF con las justificaciones.",
+        "t2":"Ver Justificaciones",
+        "t3":"Tabla de Justificaciones en la Base de Datos",
+        "t4":"Justificaciones",
+        "t5":"Descargar"
+    },
+    "login": {
+    "t1": "Dashboard",
+    "t2": "Página de Inicio de Sesión",
+    "t3": "Solo el administrador puede iniciar sesión desde aquí para acceder.",
+    "t4": "Correo Electrónico",
+    "t5": "Contraseña",
+    "t6": "Iniciar Sesión",
+    "t7": "Registrarse"
+}
+    
+}

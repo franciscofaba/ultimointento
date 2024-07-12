@@ -1,0 +1,139 @@
+{
+    "login":{
+        "t1":"Inicio de sesión",
+        "t2":"Correo electrónico",
+        "t3":"Contraseña",
+        "t4":"Iniciar sesión",
+        "t5":"o",
+        "t6":"Eres nuevo?",
+        "t7":"Registrate"
+    },
+    "top":{
+        "t1":"Idioma"
+
+    },
+    "inicio":{
+        "t1":"Asistencias",
+        "t2":"Justificaciones",
+        "t3":"Estadisticas",
+        "t4":"Condiciones"
+    },
+    "nav":{
+        "t1":"Portal alumnos",
+        "t2":"Portal Profesores",
+        "t3":"Inicio",
+        "t4":"Justificaciones",
+        "t5":"salir"
+    },
+    "qr":{
+        "t1":"Asistencia",
+        "t2":"Confirmar Asistencia",
+        "t3":"Correo",
+        "t4":"Iniciar"
+    },
+    "prueba":{
+        "t1":"Gestibot CRM & chat",
+        "t2":"Estudiante",
+        "t3":"Navegación",
+        "t4":"Portal",
+        "t5":"Justificación",
+        "t6":"Información Cursos",
+        "t7":"Ajustes",
+        "t8":"Ajustes Avanzados",
+        "t9":"Cerrar sesión",
+        "t10":"Crear asistencia",
+        "t11":"Profesor"
+    },
+    
+    "portal": {
+        "t1": "Bienvenido al Sistema de Gestión Administrativa Universitaria",
+        "t2": "En nuestro equipo, entendemos la importancia de la eficiencia y la organización en la administración educativa. Por eso, estamos orgullosos de presentarte nuestro avanzado CRM Administrativo, diseñado específicamente para satisfacer las necesidades de nuestra comunidad universitaria.",
+        "t3": "Prueba nuestro chatbot más reciente."
+    },
+    "portal2":{
+        "t1":"Crear asistencias",
+        "t2":"Seleccione Fecha:",
+        "t3":"Seleccione Curso",
+        "t4":"Asistencia creada exitosamente!",
+        "t5":"Ir a URL",
+        "t6":"Visualizar asistencias anteriores",
+        "t7":"Selecciones Fecha",
+        "t8":"Alumno:",
+        "t9":"Fecha:",
+        "t10":"Asistencia:",
+        "t11":"Curso:",
+        "t12":"Contador de asistentes",
+        "t13":"Cantidad de asistentesa la clase",
+        "t14":"Validador de asistencia",
+        "t15":"Asistencia Marcada",
+        "t16":"Asistencia Reconocimiento Facial",
+        "t17":"Diferencia entre asistencias",
+        "t18":"Ver asistencia"
+        
+    },
+    "registro":{
+        "t1":"Formulario de Registro",
+        "t2":"Nombre de usuario",
+        "t3":"Correo Eléctronico",
+        "t4":"Contraseña",
+        "t5":"Seleccionar",
+        "t6":"Estudiante",
+        "t7":"Profesor",
+        "t8":"Registrarse",
+        "t9":"o",
+        "t10":"Ya tienes una cuenta?",
+        "t11":"Inicia sesión"
+    },
+    "modal":{
+        "t1": "Correo electrónico:",
+        "t2": "Nombre:",
+        "t3": "Cargando..."
+    },
+    "tabledisplay": {
+        "t1": "Fecha",
+        "t2": "Asistencia",
+        "t3": "Sigla de curso",
+        "t4": "Justificar",
+        "t5": "Subir pdf de la siguiente asistencia",
+        "t6": "No hay documentos listados para este cliente.",
+        "t7": "Subir Documento",
+        "t8": "Justificaciones"
+      },
+    "allcourses":{
+        "t1": "Malla de:",
+        "t2": "Semestre:",
+        "t3": "Cargando...",
+        "t4": "hace 2 días"
+    },
+    "informacioncursos":{
+        "t1": "Información del Grado",
+        "t2": "Error al obtener la tabla de cursos",
+        "t3": "No hay información disponible",
+        "t4": "Ir a Justificaciones",
+        "t5": "Cerrar Sesión"
+
+    },
+    "Chatbot": {
+    "t1": "Hola, soy U{AI} Chatbot, que dudas puedo resolver por ti?",
+    "t2": "Escribe tu pregunta aqui",
+    "t3": "Enviar"
+    },
+    "reconocimiento": {
+        "t1": "Modelo de reconocimiento facial",
+        "t2": "Suba aqui una imagen del curso para detectar cuantas personas asistieron",
+        "t3": "Importante:",
+        "t4": "Recuerde que nuestro modelo actualmente esta en alpha y puede contar con un error de un 0%-1%",
+        "t5": "Seleccione el curso para contar la asistencia",
+        "t6": "Fecha actual:",
+        "t7": "Subir",
+        "t8": "Resultado",
+        "t9": "Cantidad de asistentes",
+        "t10": "Enviar contador de asistencias",
+        "t11": "Asistencia enviada con éxito",
+        "t12": "Ya se han enviado los datos de asistencia para esta fecha y curso.",
+        "t13": "Selecciona un curso"
+        }
+    
+    
+    
+}

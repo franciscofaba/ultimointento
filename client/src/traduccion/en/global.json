@@ -1,0 +1,138 @@
+{
+    "login":{
+        "t1":"Login",
+        "t2":"Email",
+        "t3":"Password",
+        "t4":"Log In",
+        "t5":"or",
+        "t6":"Are you new?",
+        "t7":"Sign Up"
+    },
+    "top":{
+        "t1":"Language"
+    },
+    "inicio":{
+        "t1":"Attendance",
+        "t2":"Excuses",
+        "t3":"Statistics",
+        "t4":"Conditions"
+    },
+    "nav": {
+        "t1": "Students Portal",
+        "t2": "Teachers Portal",
+        "t3": "Home",
+        "t4": "Justifications",
+        "t5":"Log out"
+    },
+    "qr": {
+        "t1": "Attendance",
+        "t2": "Confirm Attendance",
+        "t3": "Email",
+        "t4": "Start"
+    },
+    "prueba": {
+        "t1": "Administrative CRM",
+        "t2": "Student",
+        "t3": "Navigation",
+        "t4": "Portal",
+        "t5": "Justification",
+        "t6": "Course Information",
+        "t7": "Settings",
+        "t8": "Advanced Settings",
+        "t9": "Log Out",
+        "t10":"Create assistance",
+        "t11":"Professor"
+},
+    "portal": {
+        "t1": "Welcome to the University Administrative Management System",
+        "t2": "In our team, we understand the importance of efficiency and organization in educational administration. That is why we are proud to present to you our advanced Administrative CRM, specifically designed to meet the needs of our university community.",
+        "t3": "Try our latest chatbot."
+    },
+    "portal2":{
+        "t1":"Create Attendances",
+        "t2":"Select Date:",
+        "t3":"Select Course",
+        "t4":"Attendance successfully created!",
+        "t5":"Go to URL",
+        "t6":"View Previous Attendances",
+        "t7":"Select Date",
+        "t8":"Student:",
+        "t9":"Date:",
+        "t10":"Attendance:",
+        "t11":"Course:",
+        "t12": "Attendance counter",
+        "t13": "Number of attendees in the class",
+        "t14": "Attendance validator",
+        "t15": "Marked attendance",
+        "t16": "Facial recognition attendance",
+        "t17": "Difference in attendance",
+        "t18":"Display Attendance"
+
+
+    },
+    "registro":{
+        "t1": "Registration Form",
+        "t2": "Username",
+        "t3": "Email",
+        "t4": "Password",
+        "t5": "Select",
+        "t6": "Student",
+        "t7": "Teacher",
+        "t8": "Sign Up",
+        "t9": "or",
+        "t10": "Already have an account?",
+        "t11": "Log In"
+    },
+    "modal":{
+        "t1": "Email:",
+        "t2": "Name:",
+        "t3": "Loading..."
+    },
+    "tabledisplay": {
+        "t1": "Date",
+        "t2": "Attendance",
+        "t3": "Course code",
+        "t4": "Justify",
+        "t5": "Upload PDF for the next attendance",
+        "t6": "No documents listed for this client.",
+        "t7": "Upload Document",
+        "t8": "Justifications"
+      },
+    "allcourses": {
+        "t1": "Courses of:",
+        "t2": "Semester:",
+        "t3": "Loading...",
+        "t4": "2 days ago"
+},
+"informacioncursos": {
+    "t1": "Degree Information",
+    "t2": "Error retrieving the course table",
+    "t3": "No information available",
+    "t4": "Go to Justifications",
+    "t5": "Log Out"
+},
+"Chatbot": {
+    "t1": "Hola, soy U{AI} Chatbot, que dudas puedo resolver por ti?",
+    "t2": "Type your question here",
+    "t3": "Send"
+},
+"reconocimiento": {
+    "t1": "Facial recognition model",
+    "t2": "Upload an image of the course here to detect how many people attended",
+    "t3": "Important:",
+    "t4": "Remember that our model is currently in alpha and may have an error of 0%-1%",
+    "t5": "Select the course to count attendance",
+    "t6": "Current date:",
+    "t7": "Upload",
+    "t8": "Result",
+    "t9": "Number of attendees",
+    "t10": "Send attendance count",
+    "t11": "Attendance successfully sent",
+    "t12": "Attendance data for this date and course has already been sent.",
+    "t13": "Select a course"
+    }
+
+
+
+    
+}

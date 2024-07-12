@@ -1,0 +1,23 @@
+.navbar-custom {
+  background-color: black; /* Fondo negro */
+  
+}
+.texto{
+  color: white !important;
+}
+
+.modulo_portal{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,67 @@
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+
+import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import Landingcard from "../../shared/Landingcard";
+import Pagina2 from "../prueba2";
+
+import {Header,  Icon, IconGroup} from 'semantic-ui-react'
+import Chatbot from "../../shared/Chatbot";
+function Portal2_chatbot() {
+  const [userData, setUserData] = useState(null);
+  const navigate = useNavigate();
+  const [idUser, setIduser] = useState(null);
+  const [t, i18n] = useTranslation("global");
+  useEffect(() => {
+    // Obtener el idStudent_fk de la URL
+    const idUser_fk = window.location.pathname.split("/")[2]; // Obtén el tercer segmento de la URL
+    setIduser(idUser_fk);
+    // Llamar a la API para obtener los datos del usuario
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          `http://localhost:5000/api/User/${idUser_fk}`
+        );
+        setUserData(response.data);
+      } catch (error) {
+        console.error("Error al llamar a la API:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const gotoAttendance = async () => {
+    navigate(`/Justifications/${idUser}`);
+  };
+
+  const logout = () => {
+    navigate(`/`);
+  };
+
+  return (
+    
+    <div>
+      <Pagina2>
+
+        <br></br>
+        <Landingcard ></Landingcard>
+        <br></br>
+        <Header as='h6' content='' >
+          <IconGroup size='large'>
+            <Icon name='comment alternate outline' />
+         
+            {t("portal.t3")}
+          </IconGroup>
+        </Header>
+        <Chatbot></Chatbot>
+
+      </Pagina2>
+      
+    </div>
+
+  );
+}
+
+export default Portal2_chatbot;

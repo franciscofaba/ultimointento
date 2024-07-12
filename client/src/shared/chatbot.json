@@ -1,0 +1,94 @@
+{
+  "responsesPool": [
+    {
+      "type": "greeting",
+      "keywords": ["hello", "hi", "hey", "hola", "buenos días", "saludos", "buenas tardes", "buenas noches", "how are you", "cómo estás"],
+      "response": {
+        "en": "Hello! How can I help you today?",
+        "es": "¡Hola! ¿Cómo puedo ayudarte hoy?"
+      }
+    },
+    {
+      "type": "farewell",
+      "keywords": ["bye", "goodbye", "see you", "adiós", "hasta luego", "nos vemos", "chau", "talk to you later", "hablamos luego"],
+      "response": {
+        "en": "Goodbye! Have a great day!",
+        "es": "¡Adiós! ¡Que tengas un gran día!"
+      }
+    },
+    {
+      "type": "info",
+      "keywords": ["help", "information", "details", "ayuda", "información", "detalles", "asistencia", "puedes ayudarme", "necesito información"],
+      "response": {
+        "en": "Sure, I can help with that. What specifically would you like to know?",
+        "es": "Claro, puedo ayudarte con eso. ¿Qué te gustaría saber específicamente?"
+      }
+    },
+    {
+      "type": "admissions",
+      "keywords": ["admissions", "admission", "apply", "enrollment", "inscripción", "admisión", "solicitud", "registrarse", "cómo me inscribo", "quiero aplicar", "información de admisión"],
+      "response": {
+        "en": "You can find information about admissions on our website. Is there something specific you want to know?",
+        "es": "Puedes encontrar información sobre admisiones en nuestro sitio web. ¿Hay algo específico que quieras saber?"
+      }
+    },
+    {
+      "type": "programs",
+      "keywords": ["programs", "courses", "majors", "carreras", "programas", "materias", "cursos", "qué programas ofrecen", "qué carreras tienen", "información de programas"],
+      "response": {
+        "en": "We offer a variety of programs and courses. Which one are you interested in?",
+        "es": "Ofrecemos una variedad de programas y cursos. ¿Cuál te interesa?"
+      }
+    },
+    {
+      "type": "tuition",
+      "keywords": ["tuition", "fees", "cost", "matrícula", "costos", "precios", "pagos", "cuánto cuesta", "precio de la matrícula", "información de costos"],
+      "response": {
+        "en": "Tuition fees vary depending on the program. However, the tuition fee for engineering is 100 UF, for psychology it is 80 UF, and for law it is 150 UF. The general price is around 100 UF.",
+        "es": "Las tarifas de matrícula varían según el programa, Sin embargo, el precio de la matricula de ingenieria es de 100 UF, el de psicologia es de 80 UF y el de derecho 150, el precio general ronda las 100 UF"
+      }
+    },
+    {
+      "type": "events",
+      "keywords": ["events", "calendar", "activities", "eventos", "calendario", "actividades", "próximos eventos", "qué eventos hay", "actividades en la universidad"],
+      "response": {
+        "en": "We have many events throughout the year. You can check our events calendar on the website.",
+        "es": "Tenemos muchos eventos a lo largo del año. Puedes consultar nuestro calendario de eventos en el sitio web."
+      }
+    },
+    {
+      "type": "library",
+      "keywords": ["library", "books", "resources", "biblioteca", "libros", "recursos", "información de la biblioteca", "qué recursos ofrece la biblioteca"],
+      "response": {
+        "en": "The library offers a wide range of resources. How can I assist you with that?",
+        "es": "La biblioteca ofrece una amplia gama de recursos. ¿Cómo puedo ayudarte con eso?"
+      }
+    },
+    {
+      "type": "support",
+      "keywords": ["support", "assistance", "help desk", "soporte", "asistencia", "ayuda", "necesito soporte", "dónde puedo obtener ayuda"],
+      "response": {
+        "en": "Our support team is here to help. What do you need assistance with?",
+        "es": "Nuestro equipo de soporte está aquí para ayudar. ¿Con qué necesitas asistencia?"
+      }
+    },
+    {
+      "type": "schedule",
+      "keywords": ["schedule", "hours", "timetable", "horario", "horas", "calendario", "cuál es el horario", "horas de operación"],
+      "response": {
+        "en": "You can view the schedule and hours of operation on our website.",
+        "es": "Puedes ver el horario y las horas de operación en nuestro sitio web."
+      }
+    },
+    {
+      "type": "contact",
+      "keywords": ["contact", "email", "phone", "contacto", "correo electrónico", "teléfono", "cómo puedo contactarlos", "información de contacto"],
+      "response": {
+        "en": "You can contact us via email or phone. Visit our contact page for more details.",
+        "es": "Puedes contactarnos por correo electrónico o teléfono. Visita nuestra página de contacto para más detalles."
+      }
+    }
+  ]
+}
+
+  

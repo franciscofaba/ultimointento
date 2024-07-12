@@ -1,0 +1,26 @@
+npm init -y
+npm i express
+"type": "module"
+npm i mysql2
+npm i nodemon -D
+"dev": "nodemon src/app.js"
+npm i dotenv
+"start" :"node src/index.js"
+npm i cors
+npm i passport
+npm i passport-google-oauth20
+npm i cookie-session
+npm i react-bootstrap
+npm i axios
+npm i i18next
+npm i react-i18next
+npm i bootstrap
+
+npm install --save-dev @babel/core @babel/preset-env babel-jest 
+npm install --save-dev jest     
+npm install --save-dev mocha chai sinon sinon-chai 
+npm install winston 
+npm install moment nodemailer node-cron
+npm install bcryptjs
+
+http://localhost:3000/portal/1001#home

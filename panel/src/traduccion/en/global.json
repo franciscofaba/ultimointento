@@ -1,0 +1,48 @@
+{
+    "inicio": {
+        "t1": "Administrative CRM",
+        "t2": "Welcome! to the Administrative CRM Dashboard, the ultimate tool for managing university databases.",
+        "t3":"Language",
+        "t4":"Home"
+    },
+    "tables": {
+        "t1": "Tables",
+        "t2": "View the different tables in the database",
+        "t3": "Users",
+        "t4": "Login",
+        "t5": "Courses",
+        "t6": "Login table in the database",
+        "t7": "Users table in the database",
+        "t8": "Courses table in the database"
+    },
+    "users": {
+        "t1": "Edit User",
+        "t2": "Select a User",
+        "t3": "Username",
+        "t4": "Enter username",
+        "t5": "Email",
+        "t6": "Enter email",
+        "t7": "Role",
+        "t8": "Enter role",
+        "t9": "Career",
+        "t10": "Enter career",
+        "t11": "Submit"
+    },
+
+    "justificaciones": {
+        "t1": "Click to view and download the PDFs with justifications.",
+        "t2": "View Justifications",
+        "t3": "Justifications Table in the Database",
+        "t4": "Justifications",
+        "t5":"Download"
+    },
+    "login": {
+        "t1": "Dashboard",
+        "t2": "Login Page",
+        "t3": "Only admin can login from here to access.",
+        "t4": "Email",
+        "t5":"Password",
+        "t6": "Login",
+        "t7": "Register"
+    }
+}

@@ -1,0 +1,13 @@
+.square-container {
+  width: 100%;
+  padding-top: 100%; /* Establece la altura igual al ancho para hacerlos cuadrados */
+  position: relative;
+  overflow: hidden;
+}
+.square-container h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
