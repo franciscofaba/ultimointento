@@ -30,7 +30,7 @@ function SubirImagen() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/User/${idUser_fk}`
+          `http://20.195.171.94:5000/api/User/${idUser_fk}`
         );
         setUserData(response.data);
       } catch (error) {
@@ -41,7 +41,7 @@ function SubirImagen() {
     // Llamar a la API para obtener los nombres de los cursos
     const fetchCourseName = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/CourseInProgress/${idUser_fk}`);
+        const response = await axios.get(`http://20.195.171.94:5000/api/CourseInProgress/${idUser_fk}`);
         setCourseNames(response.data);
       } catch (error) {
         console.error("Error al llamar a la API:", error);
@@ -68,7 +68,7 @@ function SubirImagen() {
 
     try {
       const response = await axios.post(
-        `http://localhost:5001/api/upload`,
+        `http://20.195.171.94:5001/api/upload`,
         formData,
         {
           headers: {
@@ -97,7 +97,7 @@ function SubirImagen() {
   const handleReset = async () => {
     try {
       const response = await axios.post(
-        `http://localhost:5000/api/attendance/facecount`,
+        `http://20.195.171.94:5000/api/attendance/facecount`,
         {
           date: currentDate,
           idCourseFromCareer_fk: selectedCourse,
@@ -180,7 +180,7 @@ function SubirImagen() {
                 <h3>{t("reconocimiento.t8")}</h3>
                 <p>{t("reconocimiento.t9")} {faceCount}</p>
                 <img
-                  src={`http://localhost:5001/uploads/${encodeURIComponent(processedFilePath.split('\\').pop())}`}
+                  src={`http://20.195.171.94:5001/uploads/${encodeURIComponent(processedFilePath.split('\\').pop())}`}
                   alt="Processed"
                   className="img-fluid"
                 />

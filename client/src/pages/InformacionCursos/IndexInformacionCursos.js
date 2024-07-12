@@ -24,7 +24,7 @@ function InformacionCursos() {
 
         const fetchData = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/api/User/${idUser_fk}`);
+                const response = await axios.get(`http://20.195.171.94:5000/api/User/${idUser_fk}`);
                 console.log("User Data:", response.data);
                 setUserData(response.data);
             } catch (error) {
@@ -37,7 +37,7 @@ function InformacionCursos() {
 
         const fetchTable = async () => {
             try {
-                const answer = await axios.get(`http://localhost:5000/api/CourseInProgress/${idUser_fk}`);
+                const answer = await axios.get(`http://20.195.171.94:5000/api/CourseInProgress/${idUser_fk}`);
                 console.log("Course Table Data:", answer.data);
                 setTable(answer.data);
 
@@ -46,7 +46,7 @@ function InformacionCursos() {
                 console.log("First idCareer_fk Value:", firstIdCareer);
 
                 if (firstIdCareer) {
-                    const gradocarreraResponse = await axios.get(`http://localhost:5000/api/informaciongrados/${firstIdCareer}`);
+                    const gradocarreraResponse = await axios.get(`http://20.195.171.94:5000/api/informaciongrados/${firstIdCareer}`);
                     console.log("Grado Data:", gradocarreraResponse.data);
                     setGrado(gradocarreraResponse.data);
                     setSelectedGrado(firstIdCareer);
@@ -63,7 +63,7 @@ function InformacionCursos() {
 
     const fetchInformacion = async (idUser_fk) => {
         try {
-            const response = await axios.get(`http://localhost:5000/api/informacioncursos/${idUser_fk}`);
+            const response = await axios.get(`http://20.195.171.94:5000/api/informacioncursos/${idUser_fk}`);
             console.log("Informacion Cursos Data:", response.data);
             setInformacion(response.data);
             setError(null);

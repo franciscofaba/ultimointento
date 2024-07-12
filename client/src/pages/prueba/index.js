@@ -28,7 +28,7 @@ function Pagina({ children }) {
  
     if (userId) {
       console.log('este es id: ', userId);
-      const url = `http://localhost:5000/api/user/${userId}`;
+      const url = `http://20.195.171.94:5000/api/user/${userId}`;
       console.log("Fetching URL:", url);  // Verificar la URL completa
       fetch(url)
         .then(response => response.json())

@@ -17,7 +17,7 @@ function Login() {
     const handleSubmit = async () => {
         try {
             // Envía un POST para iniciar sesión y obtener datos del usuario
-            const loginResponse = await axios.post('http://localhost:5000/api/login', {
+            const loginResponse = await axios.post('http://20.195.171.94:5000/api/login', {
                 email: email,  // Asume que `email` y `password` son parte del estado o props
                 password: password
             }, {
@@ -40,7 +40,7 @@ function Login() {
                 axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 
                 // Realiza una solicitud GET para obtener información adicional, como el rol, usando el ID del usuario
-                const roleResponse = await axios.get(`http://localhost:5000/api/user/${idUser_fk}`, {
+                const roleResponse = await axios.get(`http://20.195.171.94:5000/api/user/${idUser_fk}`, {
                     withCredentials: true  // Asegúrate de que las cookies sean enviadas y recibidas
                 });
                 console.log('Este es el roleResponse:', roleResponse);

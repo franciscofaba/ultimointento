@@ -19,7 +19,7 @@ function Estado() {
             try {
                 const idUser_fk = window.location.pathname.split("/")[2];
                 const idCourseInProgress_fk = window.location.pathname.split("/")[3]; // Suponiendo que el ID del curso está en la URL
-                const response = await axios.put(`http://localhost:5000/api/Encuesta/${idUser_fk}/${idCourseInProgress_fk}`, {
+                const response = await axios.put(`http://20.195.171.94:5000/api/Encuesta/${idUser_fk}/${idCourseInProgress_fk}`, {
                     headers: {
                         'Content-Type': 'application/json'
                     }

@@ -7,7 +7,7 @@ function Home({ userDetails }) {
     const { user } = userDetails;
 
     const logout = () => {
-        window.open(`http://localhost:8080/auth/logout`, "_self");
+        window.open(`http://20.195.171.94:8080/auth/logout`, "_self");
     };
 
     return (

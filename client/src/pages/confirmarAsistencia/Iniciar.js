@@ -24,7 +24,7 @@ function Iniciar() {
                 idCourseFromCareer_fk: idCourseFromCareer
             };
 
-            const response = await fetch(`http://localhost:5000/api/attendance/student`, {
+            const response = await fetch(`http://20.195.171.94:5000/api/attendance/student`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json'
